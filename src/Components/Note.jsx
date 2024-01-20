@@ -3,9 +3,9 @@ import style from "./Note.module.css"
 
 const Note = (x) => {
     return (
-        <li id={style.nav}>
-            <p>{x.name}</p>
-            <p>{x.like}</p>
+        <li className={style.note}>
+            <p className={style.name}>{x.name}</p>
+            <p className={style.like}>{x.like}</p>
         </li>
     )
 }
