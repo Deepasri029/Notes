@@ -6,6 +6,7 @@ const NoteList = () => {
   return (
    
    <ul className={style.list}>
+    <NoteList/>
     <Note name="Meena" like="loves chocolates"/>
     <Note name="Deepa" like="loves chocolates"/>
    </ul>
