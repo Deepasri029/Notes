@@ -6,8 +6,8 @@ const NoteList = () => {
   return (
    
    <ul id={style.list}>
-    <Note name="Deepa" like="loves chocolates"/>
     <Note name="Meena" like="loves chocolates"/>
+    <Note name="Deepa" like="loves chocolates"/>
    </ul>
    
   )
